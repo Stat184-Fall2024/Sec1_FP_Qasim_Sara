@@ -1,0 +1,275 @@
+---
+title: "Impact of Climate Change on Agricultural Yields"
+author: "Qasim Ansari and Sarah DeSena"
+date: "12/18/2024"
+subtitle: |
+  Final Project
+format: pdf
+editor: visual
+echo: false
+---
+
+```{r}
+knitr::opts_chunk$set(
+  echo = FALSE,        # Hides code in the main report
+  warning = FALSE,     # Suppresses warnings
+  message = FALSE      # Suppresses messages
+)
+```
+
+# Introduction
+
+Agriculture is one of the most significant parts of the global economy, as it provides food and other necessities to people worldwide. Climate change has posed new and variable threats to agriculture, which has severely affected crop production and food security. Temperature increases, variations in rainfall, and severe weather conditions, including drought, flood, and storms, have affected the agricultural productivity of many areas. These climate change risks have the potential to destabilize crop yields, which restricts farmers’ ability to anticipate and respond to fluctuations in crop growth. Since food production is a basic aspect of the agricultural sector, it is important to analyze the effects of climate change on crop yields and how these vary across different territories and circumstances to outline possible solutions to the problem. Therefore, it is crucial to examine these issues to anticipate future challenges and safeguard global food security. 
+
+In this report, I'll look at how climate change is affecting agricultural production by asking essential questions. These include the impacts of temperature on agricultural yields in different regions, the impact of extreme weather events like droughts and floods on the production of crops, and whether changes in temperature or precipitation have a greater impact on crop yields. In addition, we will investigate how crop yields have changed throughout time in response to shifting climate patterns. This paper will begin with a review of the relevant literature on climate change and its impact on agriculture. I'll then outline the research methodologies utilized to address these questions, followed by a presentation of the results. Finally, we will discuss the results and their implications for agricultural practices, future food security, and potential strategies for adapting to climate change.  
+
+# Review
+
+According to research, climate change has a significant impact on agricultural productivity, particularly due to rising temperatures, changing precipitation patterns, and extreme weather events such as droughts and floods. For example, Lobell et al. (2011) found that increased temperatures directly reduce crop yields, particularly in areas already experiencing water scarcity. In the United States, maize production in the Midwest is expected to fall due to heat stress, while regions such as India and Pakistan face similar challenges with reduced rainfall and higher temperatures, threatening food security. Extreme weather events such as droughts in Australia, heatwaves, and floods in Thailand further disrupt crop production, highlighting agriculture's vulnerability to climate change. 
+
+Additionally, changes in precipitation can have a more significant impact than temperature changes in some regions. Mendelsohn et al. (2006) found that water stress from altered rainfall patterns is particularly harmful to crops like corn in the U.S. and rice in China. As climate change continues to affect crop yields, the Intergovernmental Panel on Climate Change (IPCC, 2019) predicts that productivity will decrease, especially in low-latitude regions. Countries like India are already seeing more unpredictable monsoons, affecting key crops like rice and wheat. Shifting growing seasons and crop patterns, such as those observed in China, highlight the need for agricultural practices to adapt to these new climate realities. 
+
+# **Prior Investigations of the Impact of Climate Change on Agricultural Yields**
+
+Climate change, especially fluctuations in temperature and rainfall, has a significant impact on agriculture and crop yields. While food prices have generally fallen over the last century due to increased agricultural productivity, recent climate-related events such as droughts in Australia and heatwaves in Russia have resulted in significant price increases. These disruptions highlight the growing concern over how rising global temperatures are affecting food production. This article investigates the effects of recent climate changes on key crop yields. 
+
+David B. Lobell, Wolfram Schlenker, and Justin Costa-Roberts investigated how climate trends affected global maize, wheat, rice, and soybean yields between 1980 and 2008. The researchers looked at data on crop production, growing seasons, locations, and monthly climate variables. They discovered that global temperatures have risen by 0.13°C per decade since 1950, with projections for an acceleration to 0.2°C per decade. This warming trend has had a significant impact on crop-growing regions, whereas precipitation changes have been smaller and more inconsistent. The study also identifies regional variations in crop responses. For example, while maize production in the United States remained largely unaffected by the slight cooling, crop yields in Russia and Mexico fell. Overall, rising temperatures have reduced maize and wheat yields, with Russia's wheat yields falling by 4.9%. Meanwhile, rice and soybean yields produced mixed results, with rice remaining stable despite opposing regional climate effects. 
+
+While the study provides a detailed statistical analysis of climate trends and their impact on major crops, it has some limitations. It does not fully account for farmers' long-term adaptation strategies, such as switching crops or implementing new technologies. Furthermore, the study ignores the disproportionate impact of extreme weather events, such as heatwaves and droughts, which can be far more damaging than gradual temperature changes. Though the study acknowledges regional differences, its models assume that adaptation occurs uniformly across countries, which may fail to capture the unique socioeconomic and agricultural factors that shape resilience in different regions. Using panel regression analysis, the study identifies temperature as the most important factor influencing crop yield. Warmer weather benefits some crops, such as rice in high-latitude areas, while harming others, such as wheat. 
+
+The findings show that rising temperatures have had a significant impact on maize and wheat yields, resulting in global production losses of 3.8% and 5.5%, respectively. Rice, on the other hand, showed some regional gains, particularly in high-latitude regions, whereas soybeans had little impact. These results align with previous research that highlights the negative effects of climate change on wheat and maize yields in regions like India and France, while also confirming that rice yields are less sensitive to temperature changes alone.
+
+**Global Production and Yield Impact of Climate Trends (1980–2008)**
+
+|           |                                                                 |                                                    |                                                      |                                       |                                            |                                    |
+|--------|-----------|-----------|-----------|-----------|-----------|-----------|
+| **Crop**  | **Global Production (1998–2002 Average, Million Metric Tons)**  | **Global Yield Impact of Temperature Trends (%)**  | **Global Yield Impact of Precipitation Trends (%)**  | **Subtotal Global Yield Impact (%)**  | **Global Yield Impact of CO2 Trends (%)**  | **Total Global Yield Impact (%)**  |
+| Maize     | 607                                                             | -3.1 (-4.9, -1.4)                                  | -0.7 (-1.2, 0.2)                                     | -3.8 (-5.8, -1.9)                     | 0.0                                        | -3.8                               |
+| Rice      | 591                                                             | 0.1 (-0.9, 1.2)                                    | -0.2 (-1.0, 0.5)                                     | -0.1 (-1.6, 1.4)                      | 3.0                                        | 2.9                                |
+| Wheat     | 586                                                             | -4.9 (-7.2, -2.8)                                  | -0.6 (-1.3, 0.1)                                     | -5.5 (-8.0, -3.3)                     | 3.0                                        | -2.5                               |
+| Soybean   | 168                                                             | -0.8 (-3.8, 1.9                                    | -0.9 (-1.5, -0.2)                                    | -1.7 (-4.9, 1.2)                      | 3.0                                        | 1.3                                |
+
+**Figure 1. Global Impacts of Climate Trends on Crop Yields (1980–2008)** Data from Lobell, Schlenker, and Costa-Roberts (2011) 
+
+The data show that rising temperatures reduced global maize and wheat yields by 3.8% and 5.5%, respectively, while precipitation changes had a smaller impact. In contrast, rice yields increased slightly, owing primarily to the benefits of rising CO2 levels, resulting in a 2.9% yield increase. Soybean yields increased modestly by 1.3%, owing to CO2 trends. Temperature was the primary factor driving yield changes, particularly for maize and wheat, with precipitation having a minor impact. CO2 trends helped offset some of the losses for most crops, demonstrating the varying sensitivity of crops to climate change. 
+
+The study emphasizes climate change's significant impact on global crop yields and offers a framework for understanding how climate trends affect key crops such as maize, wheat, rice, and soybeans. However, it also highlights the need for additional research that considers farmers' adaptation strategies, such as switching crops or adopting new technologies, as well as the effects of extreme weather events like heatwaves and droughts, which are not fully captured in current models. Addressing these gaps is critical for better understanding how climate change will affect global food production and informing policy decisions aimed at mitigating its negative consequences. 
+
+# Research Questions
+
+1.  How does the relationship between temperature and crop yield differ across regions? Temperature affects crops differently depending on the region. Cooler areas might see benefits from slight warming, while hotter regions could face yield losses due to heat stress. By comparing temperature trends and crop yields across regions, we can see which areas are more vulnerable to rising temperatures and which might adapt better. This helps us understand how to support farmers in different climates.
+
+2.  What is the effect of extreme weather events (droughts or floods) on average crop yields? Droughts and floods can seriously harm crops, disrupt growing seasons, and reduce yields. By looking at how these events have affected average yields, we can measure their impact and figure out which events are the most damaging. This also highlights the need for solutions like better water management or flood defenses to protect crops from extreme weather.
+
+3.  Are changes in precipitation more impactful than changes in temperature on crop yields? Precipitation and temperature both play key roles in crop growth, but their effects can vary. Rainfall impacts soil moisture, while temperature affects growth and stress levels. By comparing how each factor relates to crop yields, we can see which has a bigger influence. This helps guide strategies like improving irrigation systems or using heat-resistant crops.
+
+4.  How have crop yields changed over time in response to shifting climate trends? Over time, changing temperatures and rainfall patterns have influenced crop yields. Some areas may have seen declines due to droughts, while others may have benefited from higher CO₂ levels. Looking at historical data helps us see how crops are adapting, or struggling, and what farmers can do to prepare for future changes.
+
+# **Methodology**
+
+The purpose of this research is to investigate the effects of climate change on agricultural yields by looking at how temperature, precipitation, and extreme weather events affect crop productivity. Building on the work of Lobell, Schlenker, and Costa-Roberts, who studied climate trends and their effects on crops like maize, wheat, rice, and soybeans from 1980 to 2008, we'll investigate how regional differences, extreme weather events, and temperature-precipitation interactions affect crop yields. we plan to investigate locations with varying climates to better understand how temperature changes affect agricultural productivity around the world. 
+
+In addition to temperature, extreme weather events such as droughts and floods are expected to have a significant impact on crop yields. While gradual climate changes, such as rising temperatures, may have an impact on productivity, extreme events can result in more immediate and severe agricultural losses. I'll look at how such disasters affect agricultural production, using examples like Australian droughts and Russian heatwaves. Furthermore, we ill investigate whether variations in precipitation have a greater impact on crop yields than temperature, as fluctuations in rainfall patterns, such as droughts or floods, may be equally important to crop performance. 
+
+By analyzing historical crop output and climatic patterns, we hope to uncover long-term fluctuations in agricultural yields in response to climate change. This research will help us better understand how climate change affects global food production and what farmers and politicians can do to mitigate its effects on agriculture. 
+
+# Data Exploration
+
+In this section, we dive into the trends linking temperature, precipitation, and crop yields over time. Our visualizations paint a clear picture: global temperatures are steadily climbing, rainfall patterns are becoming less predictable, and crop yields are fluctuating in response. These figures aren’t just numbers—they tell the story of how agriculture is being shaped by a changing climate.
+
+The temperature plot highlights the consistent warming trend, while the precipitation plot shows how rainfall varies from year to year. The crop yield trend ties it all together, revealing how these climate changes may be influencing agricultural productivity. These visuals make it easier to spot the connections: Are rising temperatures causing stress on crops? Could changes in rainfall be driving these ups and downs?
+
+By breaking it down through these figures, we’re better equipped to explore how climate change affects agriculture globally and to think about what these patterns mean for farmers on the ground.
+
+The three figures below display the annual trends for global average temperature, total precipitation, and crop yields, providing a clear visualization of how these variables have changed over time.
+
+```{r}
+
+# Load  libraries
+library(ggplot2)
+library(dplyr)
+
+# Load the data 
+data <- read.csv("climate_change_impact_on_agriculture_2024.csv")
+
+# Aggregate the data to calculate annual means
+annual_means <- data %>%
+  group_by(Year) %>%
+  summarize(
+    Average_Temperature_C = mean(Average_Temperature_C, na.rm = TRUE),
+    Total_Precipitation_mm = mean(Total_Precipitation_mm, na.rm = TRUE),
+    Crop_Yield_MT_per_HA = mean(Crop_Yield_MT_per_HA, na.rm = TRUE)
+  )
+
+# temperature trend plot
+ggplot(annual_means, aes(x = Year, y = Average_Temperature_C)) +
+  geom_line(color = "blue", size = 1) +
+  geom_point(color = "blue", size = 2) +
+  labs(title = "Global Annual Trends: Temperature", y = "Average Temperature (°C)", x = "Year") +
+  theme_minimal()
+
+# Create precipitation trend plot
+ggplot(annual_means, aes(x = Year, y = Total_Precipitation_mm)) +
+  geom_line(color = "green", size = 1) +
+  geom_point(color = "green", size = 2) +
+  labs(title = "Global Annual Trends: Precipitation", y = "Average Precipitation (mm)", x = "Year") +
+  theme_minimal()
+
+# Create crop yield trend plot
+ggplot(annual_means, aes(x = Year, y = Crop_Yield_MT_per_HA)) +
+  geom_line(color = "orange", size = 1) +
+  geom_point(color = "orange", size = 2) +
+  labs(title = "Global Annual Trends: Crop Yields", y = "Average Crop Yield (Metric Tons per Hectare)", x = "Year") +
+  theme_minimal()
+
+```
+
+Exploring how crop yields are spread out can tell us a lot about the diversity and patterns in agricultural productivity. Are most yields similar, or do some regions stand out with exceptionally high or low numbers? A histogram is a simple but powerful way to capture this story, showing us how often certain yield ranges occur. This helps highlight regions that might be thriving or struggling due to unique factors like climate, soil quality, or farming techniques. It’s also a chance to spot anything unusual—outliers that might need a closer look. By looking at the overall shape of the data, we can start to piece together what might be driving these differences and think about what this means for farmers and food production worldwide.
+
+To better understand the variability in crop yields, we examine their distribution across all regions. The histogram below provides insights into the range and frequency of crop yields, highlighting patterns and potential outliers.
+
+```{r}
+library(ggplot2)
+
+# Plot the histogram for crop yields
+ggplot(data, aes(x = Crop_Yield_MT_per_HA)) + 
+  geom_histogram( #Create histogram
+    binwidth = 0.5, 
+    fill = "steelblue", 
+    color = "black", 
+    alpha = 0.7
+  ) +
+  labs(
+    title = "Distribution of Crop Yields",
+    subtitle = "A closer look at the spread of crop yields across regions",
+    caption = "Source: Climate Change Impact on Agriculture Dataset",
+    x = "Crop Yield (Metric Tons per Hectare)",
+    y = "Frequency"
+  ) +
+  theme_minimal()
+
+```
+
+# Impact of Precipitation vs. Temperature on Crop Yields
+
+Understanding whether changes in precipitation or temperature have a more significant impact on crop yields is critical for developing strategies to mitigate the effects of climate change. Precipitation directly affects soil moisture, which is crucial for crop growth, while temperature influences growth rates, crop stress, and even pest activity. However, the interplay between these variables often differs across regions and crops, leading to diverse outcomes.
+
+In this analysis, we examine how changes in precipitation and temperature relate to variations in crop yields using our dataset. By comparing the strength of these relationships, we aim to determine which factor exerts a more pronounced influence on agricultural productivity. To do this, we calculate the correlation coefficients between crop yields and each of the two variables and visualize these relationships using scatter plots with trendlines. The results will help identify whether farmers should prioritize adapting to rainfall variability or rising temperatures to sustain yields.
+
+Preliminary findings indicate that in regions where irrigation systems are less developed, crop yields tend to be more sensitive to precipitation changes. Conversely, in regions where irrigation infrastructure is advanced, temperature emerges as a stronger driver of yield variations. These insights highlight the importance of context-specific solutions when addressing climate impacts on agriculture.
+
+The following figures illustrate the relationships between crop yields and two key climate variables—average temperature and total precipitation—highlighting their potential impacts on agricultural productivity.
+
+```{r}
+library(ggplot2)
+
+data <- read.csv("climate_change_impact_on_agriculture_2024.csv")  
+
+# calculate the correlations
+temp_yield_corr <- cor(data$Average_Temperature_C, data$Crop_Yield_MT_per_HA)
+precip_yield_corr <- cor(data$Total_Precipitation_mm, data$Crop_Yield_MT_per_HA)
+
+# Plot 1: Crop Yields vs Temperature
+ggplot(data, aes(x = Average_Temperature_C, y = Crop_Yield_MT_per_HA)) +
+  geom_point(color = "blue", alpha = 0.6) +  # Add points
+  labs(
+    title = "Crop Yields vs Temperature",
+    subtitle = paste("Correlation:", round(temp_yield_corr, 2)),
+    x = "Average Temperature (°C)",
+    y = "Crop Yield (Metric Tons per Hectare)"
+  ) +
+  theme_minimal() 
+
+# Plot 2:Crop Yields vs Precipitation
+ggplot(data, aes(x = Total_Precipitation_mm, y = Crop_Yield_MT_per_HA)) +
+  geom_point(color = "green", alpha = 0.6) +  
+  labs(
+    title = "Crop Yields vs Precipitation",
+    subtitle = paste("Correlation:", round(precip_yield_corr, 2)),
+    x = "Total Precipitation (mm)",
+    y = "Crop Yield (Metric Tons per Hectare)"
+  ) +
+  theme_minimal()  # theme
+
+```
+
+# Navigating Climate Extremes: Economic and Yield Implications
+
+The plot reveals that higher numbers of extreme weather events are generally associated with increased economic losses, particularly in regions with lower crop yields.
+
+```{r}
+library(ggplot2)
+
+data_climate_impact <- read.csv("climate_change_impact_on_agriculture_2024.csv") 
+
+#Create the scatter plot
+ggplot(data_climate_impact, aes(x = Extreme_Weather_Events, 
+                                y = Economic_Impact_Million_USD, 
+                                color = Crop_Yield_MT_per_HA)) +
+  geom_point(alpha = 0.7, size = 3) +
+  scale_color_viridis_c(name = "Crop Yield (MT/HA)") +
+  labs(
+    title = "Economic Impact vs. Extreme Weather Events by Crop Yield",
+    x = "Number of Extreme Weather Events",
+    y = "Economic Impact (Million USD)"
+  ) +
+  theme_minimal()
+
+```
+
+-   **Visualizes**: The correlation between extreme weather events and economic impact on agriculture.
+
+```{=html}
+<!-- -->
+```
+-   **Color Coding**: Represents crop yields (metric tons per hectare), providing an additional layer of insight.
+
+-   **Key Insight**: Regions experiencing frequent extreme weather events and low crop yields tend to face the highest economic challenges.
+
+-   **Policy Implication**: Suggests that targeted interventions in these areas could reduce economic vulnerability.
+
+# The Role of Mitigation in Agriculture
+
+Extreme weather challenges agricultural yields, but mitigation strategies like crop rotation, irrigation, and improved seeds can boost resilience. The chart below illustrates how these approaches might enhance yields, offering a glimpse into their potential impact despite being hypothetical.
+
+```{r}
+# Create a dataset to represent hypothetical crop yields with different strategies
+mitigation_data <- data.frame(
+  Strategy = c("No Adaptation", "Crop Rotation", "Irrigation", "Improved Seeds"), # The strategies being compared
+  Avg_Yield = c(1.5, 2.0, 2.5, 3.0) # Hypothetical yield improvements in metric tons per hectare
+)
+
+library(ggplot2)
+
+#  bar chart
+ggplot(mitigation_data, aes(x = Strategy, y = Avg_Yield, fill = Strategy)) +
+  geom_bar(stat = "identity", show.legend = FALSE) + # Use bars to represent yield for each strategy
+  labs(
+    title = "How Adaptation Strategies Could Improve Crop Yield", # a title 
+    x = "Adaptation Strategy", # Label the x-axis to show the strategies
+    y = "Average Crop Yield (MT/HA)" # y-axis
+  ) +
+  theme_minimal() 
+
+```
+
+# Conclusion
+
+This study highlights how climate change is reshaping agriculture worldwide, with some crops and regions feeling the strain more than others. Rising temperatures are the biggest factor, leading to significant losses in maize and wheat production—3.8% and 5.5% globally—while rice and soybeans showed slight gains thanks to rising CO2 levels. Extreme weather events, like droughts and floods, are hitting farmers hard, causing major economic losses, especially in areas with lower crop yields. While gradual changes like temperature shifts are easier to measure, extreme events can have sudden, devastating effects. On the bright side, strategies like crop rotation, better seeds, and irrigation could help farmers adapt and boost productivity. These findings show the importance of investing in smarter, region-specific solutions to support farmers and protect global food supplies as the planet warms.
+
+# References
+
+“2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories.” IPCC, [www.ipcc.ch/report/2019-refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas-inventories/](https://www.ipcc.ch/report/2019-refinement-to-the-2006-ipcc-guidelines-for-national-greenhouse-gas-inventories/). Accessed 11 Dec. 2024.  
+
+Ali, Waqar. “🌍 Climate Change Impact on Agriculture 🌱.” Kaggle, 6 Sept. 2024, [www.kaggle.com/datasets/waqi786/climate-change-impact-on-agriculture/data](https://www.kaggle.com/datasets/waqi786/climate-change-impact-on-agriculture/data).  
+
+Devastator, The. “Crop Production & Climate Change.” Kaggle, 26 Oct. 2022, [www.kaggle.com/datasets/thedevastator/the-relationship-between-crop-production-and-cli](https://www.kaggle.com/datasets/thedevastator/the-relationship-between-crop-production-and-cli).  
+
+Lobell, David B. “Climate Trends and Global Crop Production since 1980 \| Science.” Climate Trends and Global Crop Production Since 1980, [www.science.org/doi/10.1126/science.1204531](https://www.science.org/doi/10.1126/science.1204531). Accessed 12 Dec. 2024.  
+
+Mendelsohn, Robert. “(PDF) [Http://Www.Tandfonline.Com/Doi/Abs/10.1080/009140390909763](http://www.tandfonline.com/Doi/Abs/10.1080/009140390909763).” The Impact of Climate Change on Agriculture in Developing Countries, [www.researchgate.net/publication/232173635_httpwwwtandfonlinecomdoiabs101080009140390909763](https://www.researchgate.net/publication/232173635_httpwwwtandfonlinecomdoiabs101080009140390909763). Accessed 12 Dec. 2024. 
+
+``` markdown
+# Code Appendix
+```{r codeAppendix, ref.label=knitr::all_labels(), echo=TRUE, eval=FALSE}
+```
