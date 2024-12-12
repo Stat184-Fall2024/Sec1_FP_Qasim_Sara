@@ -253,6 +253,47 @@ ggplot(mitigation_data, aes(x = Strategy, y = Avg_Yield, fill = Strategy)) +
 
 ```
 
+# FAIR/CARE Principles
+
+Fair:
+
+-   Findable:
+
+    -   The data we used was well-documented with clarity. Proper file naming and structured datasets ensure easy location and identification.
+
+```{=html}
+<!-- -->
+```
+-   **Accessible:**
+
+    -   The datasets are stored in commonly used formats such as CSV, which can be opened and analyzed using various tools like R or Python. They can also be shared through standard repositories for public access.
+
+-   **Interoperable:**
+
+    -   The data are structured in a tabular format, allowing integration with other datasets or tools.
+
+-   **Reusable:**
+
+    -   Detailed documentation and transparency ensure the data can be reused for other studies. The inclusion of variable descriptions enhances clarity for future users.
+
+Care:
+
+-   **Collective Benefit:**
+
+    -   The data provide insights into global agricultural challenges and solutions, aiming to benefit society by informing climate policy and strategies.
+
+-   **Authority to Control:**
+
+    -   The datasets were responsibly sourced, ensuring that they represent global patterns without putting out false or invalid information
+
+-   **Responsibility:**
+
+    -   Data usage aligns with ethical research standards, focusing on promoting sustainable agriculture and reducing climate vulnerabilities.
+
+-   **Ethics:**
+
+    -   This analysis respects the integrity of the data and aims to promote equity in addressing climate change impacts, particularly in regions most affected by extreme weather events.
+
 # Conclusion
 
 This study highlights how climate change is reshaping agriculture worldwide, with some crops and regions feeling the strain more than others. Rising temperatures are the biggest factor, leading to significant losses in maize and wheat production—3.8% and 5.5% globally—while rice and soybeans showed slight gains thanks to rising CO2 levels. Extreme weather events, like droughts and floods, are hitting farmers hard, causing major economic losses, especially in areas with lower crop yields. While gradual changes like temperature shifts are easier to measure, extreme events can have sudden, devastating effects. On the bright side, strategies like crop rotation, better seeds, and irrigation could help farmers adapt and boost productivity. These findings show the importance of investing in smarter, region-specific solutions to support farmers and protect global food supplies as the planet warms.
