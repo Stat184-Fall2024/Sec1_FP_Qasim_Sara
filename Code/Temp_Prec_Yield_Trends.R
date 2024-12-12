@@ -1,8 +1,6 @@
-# Load necessary libraries
 library(ggplot2)
 library(dplyr)
 
-# Load the data (adjust the path as necessary)
 data <- read.csv("climate_change_impact_on_agriculture_2024.csv")
 
 # Aggregate the data to calculate annual means
