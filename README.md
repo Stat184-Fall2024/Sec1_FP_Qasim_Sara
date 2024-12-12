@@ -51,7 +51,7 @@ We present the guidelines as a checklist in this README. This means that your te
     - [ ] __Optional__: If your research question/data make sense to do so, try creating a map.
     - [x] Data visualizations should be appropriately sized--not too small and not too big.
     - [x] Figures and Tables should have appropriate captions and appropriately cross-referenced in the body of your report.
-    - [ ] Your team must produce at least one table that is *not* a display of raw data.
+    - [x] Your team must produce at least one table that is *not* a display of raw data.
     - [x] Your team must produce at least one plot/graph.
     - [x] There should be narrative text helping readers to better understand what the visualization helps them to learn about the data and context.
   - [x] Your report should narrative text (beyond explaining tables and figures) that explains the context and helps the reader make sense of what is going on.
