@@ -44,7 +44,7 @@ We present the guidelines as a checklist in this README. This means that your te
 ````
   - [x] State your research questions and explain them.
   - [x] Describe the provenance of your data. That is, where did you get the data, who collected the data, for what purpose, who/what make up the cases.
-  - [ ] Explain how your data meet the FAIR and/or CARE Principles.
+  - [x] Explain how your data meet the FAIR and/or CARE Principles.
   - [x] Describe what attributes you'll focus your analysis on (mention if they are part of your data sets or if you created them out of your data sets).
   - [x] Create multiple data visualizations (tables and figures) that assist both the team and readers in understanding the data.
     - [x] Data visualizations should show a variety of your skills and geometries.
