@@ -1,7 +1,7 @@
 # Load necessary library
 library(ggplot2)
 data <- read.csv("climate_change_impact_on_agriculture_2024.csv")
-
+head(data) #look at data prior
 # Plot the histogram for crop yields
 ggplot(data, aes(x = Crop_Yield_MT_per_HA)) + 
   geom_histogram( #Create histogram
