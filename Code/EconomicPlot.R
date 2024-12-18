@@ -1,7 +1,7 @@
 library(ggplot2)
 
 data_climate_impact <- read.csv("climate_change_impact_on_agriculture_2024.csv") 
-
+head(data_climate_impact)
 #Create the scatter plot
 ggplot(data_climate_impact, aes(x = Extreme_Weather_Events, # names
                                 y = Economic_Impact_Million_USD, 
